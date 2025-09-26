@@ -1,5 +1,6 @@
 // Load the filesystem module
-const fs = require('fs');
+//const fs = require('fs');
+import fs from 'fs';
 
 // Lendo um arquivo de forma assincrona
 fs.readFile('myfile.txt', 'utf8', (err, data) => {
