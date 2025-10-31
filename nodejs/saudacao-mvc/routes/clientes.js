@@ -5,6 +5,6 @@ const clientesController = require('../controllers/clientesController');
 
 router.get("/",clientesController.clientes);
 router.get('/login',clientesController.login);
-router.post('/login',clientesController.verificarLogin)
+router.post("/login",clientesController.verificarLogin);
 
 module.exports = router;
